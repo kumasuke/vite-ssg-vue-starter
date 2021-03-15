@@ -1,0 +1,9 @@
+{
+  "volar.tsPlugin": true,
+  "volar.tsPluginStatus": false,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "windicss.sortOnSave": true,
+  "windicss.enableCodeFolding": false
+}
