@@ -15,7 +15,7 @@ devDependencies:
   typescript: 4.2.3
   vite: 2.1.3
   vite-plugin-components: 0.8.3_vite@2.1.3
-  vite-plugin-pages: 0.7.2_vite@2.1.3+vue@3.0.8
+  vite-plugin-pages: 0.9.0_deb914080bd146baa9d746fbbe6a6fdc
   vite-plugin-vue-layouts: 0.2.2_vite@2.1.3
   vite-plugin-windicss: 0.8.4_vite@2.1.3
   vite-ssg: 0.8.12_6330c92633bd50eea25191b956939842
@@ -3644,7 +3644,7 @@ packages:
       vite: ^2.0.0-beta.69
     resolution:
       integrity: sha512-wqKt3DU7RzWJvE46qbZsi9E6TCaUwkOQZfRSDnRndKel72psJae02nD+qu/ObkRduqK9kdeGmAOcZw1qUkNUrg==
-  /vite-plugin-pages/0.7.2_vite@2.1.3+vue@3.0.8:
+  /vite-plugin-pages/0.9.0_deb914080bd146baa9d746fbbe6a6fdc:
     dependencies:
       '@vue/compiler-sfc': 3.0.8_vue@3.0.8
       chalk: 4.1.0
@@ -3662,8 +3662,9 @@ packages:
     peerDependencies:
       vite: ^2.0.0
       vue: ^3.0.0
+      vue-router: ^4.0.0
     resolution:
-      integrity: sha512-I3e3o+j2edGuUVocnizBxsKTBmCIKiK3sgqo8gfNJ5BHN7JjoRcfTk9wP3pavGJ/zczUbP5ULnXkWfgsJfw/aQ==
+      integrity: sha512-7BxDOkY66udSi4ElBRnP8DnjDLYM6q/czJ1e/3Ok2Yzdgg+Wts6J6uX89SGdLboV8c/6iO6qFdSmBj3GxxIs3Q==
   /vite-plugin-vue-layouts/0.2.2_vite@2.1.3:
     dependencies:
       '@vue/compiler-sfc': 3.0.8_vue@3.0.8
@@ -3985,7 +3986,7 @@ specifiers:
   typescript: 4.2.3
   vite: 2.1.3
   vite-plugin-components: 0.8.3
-  vite-plugin-pages: 0.7.2
+  vite-plugin-pages: 0.9.0
   vite-plugin-vue-layouts: 0.2.2
   vite-plugin-windicss: 0.8.4
   vite-ssg: 0.8.12
