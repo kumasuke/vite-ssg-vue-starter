@@ -29,7 +29,7 @@
     "vite-plugin-pages": "0.9.0",
     "vite-plugin-vue-layouts": "0.2.2",
     "vite-plugin-windicss": "0.10.2",
-    "vite-ssg": "0.8.12",
+    "vite-ssg": "0.9.1",
     "vuex": "4.0.0"
   }
 }

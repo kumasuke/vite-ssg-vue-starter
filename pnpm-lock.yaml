@@ -18,7 +18,7 @@ devDependencies:
   vite-plugin-pages: 0.9.0_deb914080bd146baa9d746fbbe6a6fdc
   vite-plugin-vue-layouts: 0.2.2_vite@2.1.3
   vite-plugin-windicss: 0.10.2_vite@2.1.3
-  vite-ssg: 0.8.12_6330c92633bd50eea25191b956939842
+  vite-ssg: 0.9.1_6330c92633bd50eea25191b956939842
   vuex: 4.0.0_vue@3.0.8
 lockfileVersion: 5.2
 packages:
@@ -601,6 +601,13 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==
+  /acorn/8.1.0:
+    dev: true
+    engines:
+      node: '>=0.4.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-LWCF/Wn0nfHOmJ9rzQApGnxnvgfROzGilS8936rqN/lfcYkY9MYZzdMqN+2NJ4SlTc+m5HiSa+kNfDtI64dwUA==
   /ajv/6.12.6:
     dependencies:
       fast-deep-equal: 3.1.3
@@ -1278,20 +1285,20 @@ packages:
       node: '>=0.8.0'
     resolution:
       integrity: sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
-  /escodegen/1.14.3:
+  /escodegen/2.0.0:
     dependencies:
       esprima: 4.0.1
-      estraverse: 4.3.0
+      estraverse: 5.2.0
       esutils: 2.0.3
       optionator: 0.8.3
     dev: true
     engines:
-      node: '>=4.0'
+      node: '>=6.0'
     hasBin: true
     optionalDependencies:
       source-map: 0.6.1
     resolution:
-      integrity: sha512-qFcX0XJkdg+PB3xjZZG/wKSuT1PnQWx57+TVSjIMmILd2yC/6ByYElPwJnslDsuWuSAp4AwJGumarAAmJch5Kw==
+      integrity: sha512-mmHKys/C8BFUGI+MAWNcSYoORYLMdPzjrknd2Vc+bUsjN5bXcr8EhrNB+UTqfL1y3I9c4fw2ihgtMPQLBRiQxw==
   /eslint-config-standard/16.0.2_fc48a48bec82055733eb478fc50bdf72:
     dependencies:
       eslint: 7.23.0
@@ -2051,12 +2058,6 @@ packages:
       node: '>= 0.4'
     resolution:
       integrity: sha512-O0DB1JC/sPyZl7cIo78n5dR7eUSwwpYPiXRhTzNxZVAMUuB8vlnRFyLxdrVToks6XPLVnFfbzaVd5WLjhgg+vA==
-  /ip-regex/2.1.0:
-    dev: true
-    engines:
-      node: '>=4'
-    resolution:
-      integrity: sha1-+ni/XS5pE8kRzp+BnuUUa7bYROk=
   /is-arguments/1.1.0:
     dependencies:
       call-bind: 1.0.2
@@ -2236,33 +2237,33 @@ packages:
     dev: true
     resolution:
       integrity: sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
-  /jsdom/16.4.0:
+  /jsdom/16.5.1:
     dependencies:
       abab: 2.0.5
-      acorn: 7.4.1
+      acorn: 8.1.0
       acorn-globals: 6.0.0
       cssom: 0.4.4
       cssstyle: 2.3.0
       data-urls: 2.0.0
       decimal.js: 10.2.1
       domexception: 2.0.1
-      escodegen: 1.14.3
+      escodegen: 2.0.0
       html-encoding-sniffer: 2.0.1
       is-potential-custom-element-name: 1.0.0
       nwsapi: 2.2.0
-      parse5: 5.1.1
+      parse5: 6.0.1
       request: 2.88.2
       request-promise-native: 1.0.9_request@2.88.2
       saxes: 5.0.1
       symbol-tree: 3.2.4
-      tough-cookie: 3.0.1
+      tough-cookie: 4.0.0
       w3c-hr-time: 1.0.2
       w3c-xmlserializer: 2.0.0
       webidl-conversions: 6.1.0
       whatwg-encoding: 1.0.5
       whatwg-mimetype: 2.3.0
       whatwg-url: 8.4.0
-      ws: 7.4.3
+      ws: 7.4.4
       xml-name-validator: 3.0.0
     dev: true
     engines:
@@ -2273,7 +2274,7 @@ packages:
       canvas:
         optional: true
     resolution:
-      integrity: sha512-lYMm3wYdgPhrl7pDcRmvzPhhrGVBeVhPIqeHjzeiHN3DFmD1RBpbExbi8vU7BJdH8VAZYovR8DMt0PNNDM7k8w==
+      integrity: sha512-pF73EOsJgwZekbDHEY5VO/yKXUkab/DuvrQB/ANVizbr6UAHJsDdHXuotZYwkJSGQl1JM+ivXaqY+XBDDL4TiA==
   /jsesc/2.5.2:
     dev: true
     engines:
@@ -2752,10 +2753,10 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-ayCKvm/phCGxOkYRSCM82iDwct8/EonSEgCSxWxD7ve6jHggsFl4fZVQBPRNgQoKiuV/odhFrGzQXZwbifC8Rg==
-  /parse5/5.1.1:
+  /parse5/6.0.1:
     dev: true
     resolution:
-      integrity: sha512-ugq4DFI0Ptb+WWjAdOK16+u/nHfiIrcE+sh8kZMaM0WllQKLI9rOUq6c2b7cwPkXdzfQESqvoqK6ug7U/Yyzug==
+      integrity: sha512-Ofn/CTFzRGTTxwpNEs9PP93gXShHcTq255nzRYSKe8AkVpZY7e1fpmTfOyoIvjP5HG7Z2ZM7VS9PPhQGW2pOpw==
   /path-exists/3.0.0:
     dev: true
     engines:
@@ -3470,16 +3471,16 @@ packages:
       node: '>=0.8'
     resolution:
       integrity: sha512-nlLsUzgm1kfLXSXfRZMc1KLAugd4hqJHDTvc2hDIwS3mZAfMEuMbc03SujMF+GEcpaX/qboeycw6iO8JwVv2+g==
-  /tough-cookie/3.0.1:
+  /tough-cookie/4.0.0:
     dependencies:
-      ip-regex: 2.1.0
       psl: 1.8.0
       punycode: 2.1.1
+      universalify: 0.1.2
     dev: true
     engines:
       node: '>=6'
     resolution:
-      integrity: sha512-yQyJ0u4pZsv9D4clxO69OEjLWYw+jbgspjTue4lTQZLfV0c5l1VmK2y1JK8E9ahdpltPOaAThPcp5nKPUgSnsg==
+      integrity: sha512-tHdtEpQCMrc1YLrMaqXXcj6AxhYi/xgit6mZu1+EDWUn+qhUf8wMQoFIy9NXuq23zAwtcB0t/MjACGR18pcRbg==
   /tr46/2.0.2:
     dependencies:
       punycode: 2.1.1
@@ -3587,6 +3588,12 @@ packages:
     dev: true
     resolution:
       integrity: sha1-sxxa6CVIRKOoKBVBzisEuGWnNP8=
+  /universalify/0.1.2:
+    dev: true
+    engines:
+      node: '>= 4.0.0'
+    resolution:
+      integrity: sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==
   /universalify/2.0.0:
     dev: true
     engines:
@@ -3691,7 +3698,7 @@ packages:
       vite: ^2.0.1
     resolution:
       integrity: sha512-+kgzjwW6VNFlMlQvN4C5iCIqCAhSmTLteVz9IA7LjnpyM6X4tpZmWiTiNlLzAeiJt1eUpu9lFcA7GfuZR+OQDA==
-  /vite-ssg/0.8.12_6330c92633bd50eea25191b956939842:
+  /vite-ssg/0.9.1_6330c92633bd50eea25191b956939842:
     dependencies:
       '@vue/compiler-sfc': 3.0.8_vue@3.0.8
       '@vue/server-renderer': 3.0.8_vue@3.0.8
@@ -3699,7 +3706,7 @@ packages:
       chalk: 4.1.0
       fs-extra: 9.1.0
       html-minifier: 4.0.0
-      jsdom: 16.4.0
+      jsdom: 16.5.1
       prettier: 2.2.1
       vite: 2.1.3
       vue: 3.0.8
@@ -3712,12 +3719,12 @@ packages:
     peerDependencies:
       '@vue/compiler-sfc': ^3.0.4
       '@vue/server-renderer': ^3.0.4
-      '@vueuse/head': ^0.3.1
-      vite: ^2.0.0-beta.3
+      '@vueuse/head': ^0.5.1
+      vite: ^2.0.0
       vue: ^3.0.4
       vue-router: ^4.0.1
     resolution:
-      integrity: sha512-Jyn7QHluvJwTqh3O/O57eRHzNHzYsM8UmPgrX9GStvjvYN8Utdbh7H4wcJSN2iz7jAl7KXZAB5+jSIltXGUGig==
+      integrity: sha512-8cNx7UDd2EaQrFX0jeW6pEE409I+x+JukBOfdPH/DLSE0otF8LnZq5tTFACwbGLRMVYqtDytWw3fnN2i2FnudQ==
   /vite/2.1.3:
     dependencies:
       esbuild: 0.9.7
@@ -3899,7 +3906,7 @@ packages:
     dev: true
     resolution:
       integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
-  /ws/7.4.3:
+  /ws/7.4.4:
     dev: true
     engines:
       node: '>=8.3.0'
@@ -3912,7 +3919,7 @@ packages:
       utf-8-validate:
         optional: true
     resolution:
-      integrity: sha512-hr6vCR76GsossIRsr8OLR9acVVm1jyfEWvhbNjtgPOrfvAlKzvyeg/P6r8RuDjRyrcQoPQT7K0DGEPc7Ae6jzA==
+      integrity: sha512-Qm8k8ojNQIMx7S+Zp8u/uHOx7Qazv3Yv4q68MiWWWOJhiwG5W3x7iqmRtJo8xxrciZUY4vRxUTJCKuRnF28ZZw==
   /xml-name-validator/3.0.0:
     dev: true
     resolution:
@@ -3992,7 +3999,7 @@ specifiers:
   vite-plugin-pages: 0.9.0
   vite-plugin-vue-layouts: 0.2.2
   vite-plugin-windicss: 0.10.2
-  vite-ssg: 0.8.12
+  vite-ssg: 0.9.1
   vue: 3.0.8
   vue-router: 4.0.5
   vuex: 4.0.0
