@@ -11,15 +11,15 @@
   "dependencies": {
     "@vueuse/core": "4.6.2",
     "@vueuse/head": "0.5.1",
-    "vue": "3.0.8",
+    "vue": "3.0.10",
     "vue-router": "4.0.5"
   },
   "devDependencies": {
     "@antfu/eslint-config": "0.6.2",
     "@types/node": "14.14.37",
     "@vitejs/plugin-vue": "1.2.0",
-    "@vue/compiler-sfc": "3.0.8",
-    "@vue/server-renderer": "3.0.8",
+    "@vue/compiler-sfc": "3.0.10",
+    "@vue/server-renderer": "3.0.10",
     "eslint": "7.23.0",
     "pnpm": "5.18.8",
     "rollup-plugin-sitemap": "1.0.3",
