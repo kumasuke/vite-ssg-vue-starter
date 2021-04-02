@@ -6,7 +6,7 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config': 0.6.2_eslint@7.23.0+typescript@4.2.3
   '@types/node': 14.14.37
-  '@vitejs/plugin-vue': 1.2.0_@vue+compiler-sfc@3.0.10
+  '@vitejs/plugin-vue': 1.2.1_@vue+compiler-sfc@3.0.10
   '@vue/compiler-sfc': 3.0.10_vue@3.0.10
   '@vue/server-renderer': 3.0.10_vue@3.0.10
   eslint: 7.23.0
@@ -447,7 +447,7 @@ packages:
       node: ^8.10.0 || ^10.13.0 || >=11.10.1
     resolution:
       integrity: sha512-WfuMN8mm5SSqXuAr9NM+fItJ0SVVphobWYkWOwQ1odsfC014Vdxk/92t4JwS1Q6fCA/ABfCKpa3AVtpUKTNKGQ==
-  /@vitejs/plugin-vue/1.2.0_@vue+compiler-sfc@3.0.10:
+  /@vitejs/plugin-vue/1.2.1_@vue+compiler-sfc@3.0.10:
     dependencies:
       '@vue/compiler-sfc': 3.0.10_vue@3.0.10
     dev: true
@@ -456,7 +456,7 @@ packages:
     peerDependencies:
       '@vue/compiler-sfc': ^3.0.6
     resolution:
-      integrity: sha512-IhSJfJH6IDNEAnhr91+2vhLLe/1SqkA/2BP19jwtn54DGI+cNbZIxiPhHIdKUpdRo0QwErOh6Jy1Maxk2uVo7A==
+      integrity: sha512-TG+LbEUNwfFrx1VyN+iq+PsiGd9MT16hUdJY+BnMXj3MrLAF8m3VYUspTDM3aXoh48YDmAkMjG4gWFRg3lbG5A==
   /@vue/compiler-core/3.0.10:
     dependencies:
       '@babel/parser': 7.13.9
@@ -4105,7 +4105,7 @@ packages:
 specifiers:
   '@antfu/eslint-config': 0.6.2
   '@types/node': 14.14.37
-  '@vitejs/plugin-vue': 1.2.0
+  '@vitejs/plugin-vue': 1.2.1
   '@vue/compiler-sfc': 3.0.10
   '@vue/server-renderer': 3.0.10
   '@vueuse/core': 4.6.2
