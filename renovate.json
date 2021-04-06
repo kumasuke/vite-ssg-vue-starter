@@ -1,7 +1,22 @@
 {
-  "extends": ["config:base"],
+  "extends": [
+    "config:base"
+  ],
   "timezone": "Asia/Tokyo",
-  "schedule": ["every weekend"],
-  "labels": ["renovate"],
-  "patch": { "automerge": true }
+  "schedule": [
+    "every weekend"
+  ],
+  "labels": [
+    "renovate"
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true
+    }
+  ]
 }
