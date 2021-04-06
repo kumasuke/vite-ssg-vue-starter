@@ -1,5 +1,5 @@
 dependencies:
-  '@vueuse/core': 4.6.2_vue@3.0.10
+  '@vueuse/core': 4.7.0_vue@3.0.10
   '@vueuse/head': 0.5.1_vue@3.0.10
   vue: 3.0.10
   vue-router: 4.0.5_vue@3.0.10
@@ -634,15 +634,15 @@ packages:
     dev: true
     resolution:
       integrity: sha512-zDdHjJjzgWYFw8TTUW08JjdERTlBik5/N5LuTAqU0e4wS6wElcvftiNHrD0ONr79O3fi66Z3Ug4jgPhBomPQUA==
-  /@vueuse/core/4.6.2_vue@3.0.10:
+  /@vueuse/core/4.7.0_vue@3.0.10:
     dependencies:
-      '@vueuse/shared': 4.6.2_vue@3.0.10
+      '@vueuse/shared': 4.7.0_vue@3.0.10
       vue-demi: 0.7.4_vue@3.0.10
     dev: false
     peerDependencies:
       vue: '*'
     resolution:
-      integrity: sha512-FNI3qYazSrh4HReffs41qUl9ptu3HGe6Jn5ttGcfg3WHuHqhPV8VdhSWEO4wCx+rm131ta4CMGN7TNN54pTODw==
+      integrity: sha512-0Kmo+Gqn47aCg6HHFUvXabD/T5haWyC5pk2PEzaGay9dGE7D+sc05Y1h2MylzcFzRX/2G4anOxSuDqmvQ/GunQ==
   /@vueuse/head/0.5.1_vue@3.0.10:
     dependencies:
       vue: 3.0.10
@@ -651,14 +651,14 @@ packages:
       vue: '>=3'
     resolution:
       integrity: sha512-xt6qgtItb4z/7vp664opQc0c2+ZoU9itMfvpmg4+h0uJcEnhl7LYxO4V+G8H7EVki7SyXDIFMfoCiCFaJrArmg==
-  /@vueuse/shared/4.6.2_vue@3.0.10:
+  /@vueuse/shared/4.7.0_vue@3.0.10:
     dependencies:
       vue-demi: 0.7.4_vue@3.0.10
     dev: false
     peerDependencies:
       vue: '*'
     resolution:
-      integrity: sha512-niGuwfS9QjRhA44qopwczanH0u8TUgkgmUnTsOAz9a+iwGIxOK3ImpX1iCW7Dshqkz3YhPtmpycOrwF07s5jIQ==
+      integrity: sha512-a9wmH6g+dh6ALeOejIL53s1HkASyOldbHunwEUEtRdgQyUCnU+RRiYTZlNLEyt1r79kPtnBjp5fHq0X36H96MA==
   /@windicss/plugin-utils/0.11.3:
     dependencies:
       debug: 4.3.2
@@ -4108,7 +4108,7 @@ specifiers:
   '@vitejs/plugin-vue': 1.2.1
   '@vue/compiler-sfc': 3.0.10
   '@vue/server-renderer': 3.0.10
-  '@vueuse/core': 4.6.2
+  '@vueuse/core': 4.7.0
   '@vueuse/head': 0.5.1
   eslint: 7.23.0
   pnpm: 5.18.9
