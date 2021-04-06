@@ -13,12 +13,12 @@ devDependencies:
   pnpm: 5.18.9
   rollup-plugin-sitemap: 1.0.3
   typescript: 4.2.3
-  vite: 2.1.3
-  vite-plugin-components: 0.8.3_vite@2.1.3
-  vite-plugin-pages: 0.9.0_c06c6a79ac7d0c56a570a4fb5df26f18
-  vite-plugin-vue-layouts: 0.2.2_vite@2.1.3
-  vite-plugin-windicss: 0.11.3_vite@2.1.3
-  vite-ssg: 0.9.1_ad11cd18616fc532150633a63d5e29ce
+  vite: 2.1.5
+  vite-plugin-components: 0.8.3_vite@2.1.5
+  vite-plugin-pages: 0.9.0_2b44c0ae7b346f8918673fb1f4564db0
+  vite-plugin-vue-layouts: 0.2.2_vite@2.1.5
+  vite-plugin-windicss: 0.11.3_vite@2.1.5
+  vite-ssg: 0.9.1_5fed601fa16e94f21471a7d2e2c89d62
   vuex: 4.0.0_vue@3.0.10
 lockfileVersion: 5.2
 packages:
@@ -3742,19 +3742,19 @@ packages:
       '0': node >=0.6.0
     resolution:
       integrity: sha1-OhBcoXBTr1XW4nDB+CiGguGNpAA=
-  /vite-plugin-components/0.8.3_vite@2.1.3:
+  /vite-plugin-components/0.8.3_vite@2.1.5:
     dependencies:
       chokidar: 3.5.1
       debug: 4.3.2
       fast-glob: 3.2.5
       minimatch: 3.0.4
-      vite: 2.1.3
+      vite: 2.1.5
     dev: true
     peerDependencies:
       vite: ^2.0.0-beta.69
     resolution:
       integrity: sha512-wqKt3DU7RzWJvE46qbZsi9E6TCaUwkOQZfRSDnRndKel72psJae02nD+qu/ObkRduqK9kdeGmAOcZw1qUkNUrg==
-  /vite-plugin-pages/0.9.0_c06c6a79ac7d0c56a570a4fb5df26f18:
+  /vite-plugin-pages/0.9.0_2b44c0ae7b346f8918673fb1f4564db0:
     dependencies:
       '@vue/compiler-sfc': 3.0.8_vue@3.0.10
       chalk: 4.1.0
@@ -3764,7 +3764,7 @@ packages:
       fast-glob: 3.2.5
       glob-to-regexp: 0.4.1
       json5: 2.2.0
-      vite: 2.1.3
+      vite: 2.1.5
       vue: 3.0.10
       vue-router: 4.0.5_vue@3.0.10
       yaml: 2.0.0-4
@@ -3775,12 +3775,12 @@ packages:
       vue-router: ^4.0.0
     resolution:
       integrity: sha512-7BxDOkY66udSi4ElBRnP8DnjDLYM6q/czJ1e/3Ok2Yzdgg+Wts6J6uX89SGdLboV8c/6iO6qFdSmBj3GxxIs3Q==
-  /vite-plugin-vue-layouts/0.2.2_vite@2.1.3:
+  /vite-plugin-vue-layouts/0.2.2_vite@2.1.5:
     dependencies:
       '@vue/compiler-sfc': 3.0.8_vue@3.0.8
       debug: 4.3.2
       fast-glob: 3.2.5
-      vite: 2.1.3
+      vite: 2.1.5
       vue: 3.0.8
       vue-router: 4.0.5_vue@3.0.8
     dev: true
@@ -3788,19 +3788,19 @@ packages:
       vite: ^2.0.0-beta.65
     resolution:
       integrity: sha512-I5BfkCHwHV1WlbJE1ps2r6vwTo3N5QpLks3UpGa8XHcmHW03lavvJkdfjBpagI1bUQGEwWjLowFisG0Q/NJq3A==
-  /vite-plugin-windicss/0.11.3_vite@2.1.3:
+  /vite-plugin-windicss/0.11.3_vite@2.1.5:
     dependencies:
       '@windicss/plugin-utils': 0.11.3
       chalk: 4.1.0
       debug: 4.3.2
-      vite: 2.1.3
+      vite: 2.1.5
       windicss: 2.5.8
     dev: true
     peerDependencies:
       vite: ^2.0.1
     resolution:
       integrity: sha512-+kgzjwW6VNFlMlQvN4C5iCIqCAhSmTLteVz9IA7LjnpyM6X4tpZmWiTiNlLzAeiJt1eUpu9lFcA7GfuZR+OQDA==
-  /vite-ssg/0.9.1_ad11cd18616fc532150633a63d5e29ce:
+  /vite-ssg/0.9.1_5fed601fa16e94f21471a7d2e2c89d62:
     dependencies:
       '@vue/compiler-sfc': 3.0.10_vue@3.0.10
       '@vue/server-renderer': 3.0.10_vue@3.0.10
@@ -3810,7 +3810,7 @@ packages:
       html-minifier: 4.0.0
       jsdom: 16.5.1
       prettier: 2.2.1
-      vite: 2.1.3
+      vite: 2.1.5
       vue: 3.0.10
       vue-router: 4.0.5_vue@3.0.10
       yargs: 16.2.0
@@ -3827,7 +3827,7 @@ packages:
       vue-router: ^4.0.1
     resolution:
       integrity: sha512-8cNx7UDd2EaQrFX0jeW6pEE409I+x+JukBOfdPH/DLSE0otF8LnZq5tTFACwbGLRMVYqtDytWw3fnN2i2FnudQ==
-  /vite/2.1.3:
+  /vite/2.1.5:
     dependencies:
       esbuild: 0.9.7
       postcss: 8.2.7
@@ -3840,7 +3840,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
     resolution:
-      integrity: sha512-bUzArZIUwADVJS/3ywCr4KKFn3a7izs4M87ZDlAlY2V34E4g1kH6p3sVNAh8/IXCn/56fwgMh3rRavPUW7qEQQ==
+      integrity: sha512-tYU5iaYeUgQYvK/CNNz3tiJ8vYqPWfCE9IQ7K0iuzYovWw7lzty7KRYGWwV3CQPh0NKxWjOczAqiJsCL0Xb+Og==
   /vue-demi/0.7.4_vue@3.0.10:
     dependencies:
       vue: 3.0.10
@@ -4114,7 +4114,7 @@ specifiers:
   pnpm: 5.18.9
   rollup-plugin-sitemap: 1.0.3
   typescript: 4.2.3
-  vite: 2.1.3
+  vite: 2.1.5
   vite-plugin-components: 0.8.3
   vite-plugin-pages: 0.9.0
   vite-plugin-vue-layouts: 0.2.2
