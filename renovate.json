@@ -9,15 +9,14 @@
   "labels": [
     "renovate"
   ],
-  "packageRules": [
-    {
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
-      "automerge": true
-    }
-  ],
+  "minor": {
+    "groupName": "minor all dependencies ",
+    "automerge": true
+  },
+  "patch": {
+    "groupName": "patch all dependencies ",
+    "automerge": true
+  },
   "lockFileMaintenance": {
     "enabled": true
   }
