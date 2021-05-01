@@ -28,7 +28,7 @@
     "vite-plugin-components": "0.8.4",
     "vite-plugin-pages": "0.10.0",
     "vite-plugin-vue-layouts": "0.2.2",
-    "vite-plugin-windicss": "0.15.7",
+    "vite-plugin-windicss": "0.15.9",
     "vite-ssg": "0.9.3",
     "vuex": "4.0.0"
   }
