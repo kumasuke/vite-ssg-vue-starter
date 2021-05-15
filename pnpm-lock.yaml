@@ -19,14 +19,14 @@ specifiers:
   vite-plugin-windicss: 0.15.10
   vite-ssg: 0.10.0
   vue: 3.0.11
-  vue-router: 4.0.6
+  vue-router: 4.0.8
   vuex: 4.0.0
 
 dependencies:
   '@vueuse/core': 4.9.2_vue@3.0.11
   '@vueuse/head': 0.5.1_vue@3.0.11
   vue: 3.0.11
-  vue-router: 4.0.6_vue@3.0.11
+  vue-router: 4.0.8_vue@3.0.11
 
 devDependencies:
   '@antfu/eslint-config': 0.6.5_eslint@7.26.0+typescript@4.2.4
@@ -43,7 +43,7 @@ devDependencies:
   vite-plugin-pages: 0.11.1_vite@2.2.4+vue@3.0.11
   vite-plugin-vue-layouts: 0.3.1_vite@2.2.4
   vite-plugin-windicss: 0.15.10_vite@2.2.4
-  vite-ssg: 0.10.0_a2a93fdf23333c5f8bdb1d4ae8e84ae2
+  vite-ssg: 0.10.0_029829497b05bd171b88283a798f46ee
   vuex: 4.0.0_vue@3.0.11
 
 packages:
@@ -540,6 +540,10 @@ packages:
       '@vue/compiler-dom': 3.0.11
       '@vue/shared': 3.0.11
     dev: true
+
+  /@vue/devtools-api/6.0.0-beta.10:
+    resolution: {integrity: sha512-nktQYRnIFrh4DdXiCBjHnsHOMZXDIVcP9qlm/DMfxmjJMtpMGrSZCOKP8j7kDhObNHyqlicwoGLd+a4hf4x9ww==}
+    dev: false
 
   /@vue/reactivity/3.0.11:
     resolution: {integrity: sha512-SKM3YKxtXHBPMf7yufXeBhCZ4XZDKP9/iXeQSC8bBO3ivBuzAi4aZi0bNoeE2IF2iGfP/AHEt1OU4ARj4ao/Xw==}
@@ -3518,7 +3522,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-ssg/0.10.0_a2a93fdf23333c5f8bdb1d4ae8e84ae2:
+  /vite-ssg/0.10.0_029829497b05bd171b88283a798f46ee:
     resolution: {integrity: sha512-8QWEwkzX5Q9o2FVKzJ1tMQqphCYztUdkvQjNiXW6dxePwLPfBPoU7y3rE/1v/w02p/sJU0hrkn8q9OztwkqAkA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -3540,7 +3544,7 @@ packages:
       prettier: 2.2.1
       vite: 2.2.4
       vue: 3.0.11
-      vue-router: 4.0.6_vue@3.0.11
+      vue-router: 4.0.8_vue@3.0.11
       yargs: 17.0.1
     transitivePeerDependencies:
       - bufferutil
@@ -3598,6 +3602,16 @@ packages:
       vue: ^3.0.0
     dependencies:
       vue: 3.0.11
+    dev: true
+
+  /vue-router/4.0.8_vue@3.0.11:
+    resolution: {integrity: sha512-42mWSQaH7CCBQDspQTHv63f34VEnZC20g9QNK4WJ/zW8SdIUeT6TQ2i/78fjF/pVBUPLBWrGhvB7uDnaz7O/pA==}
+    peerDependencies:
+      vue: ^3.0.0
+    dependencies:
+      '@vue/devtools-api': 6.0.0-beta.10
+      vue: 3.0.11
+    dev: false
 
   /vue/3.0.11:
     resolution: {integrity: sha512-3/eUi4InQz8MPzruHYSTQPxtM3LdZ1/S/BvaU021zBnZi0laRUyH6pfuE4wtUeLvI8wmUNwj5wrZFvbHUXL9dw==}
