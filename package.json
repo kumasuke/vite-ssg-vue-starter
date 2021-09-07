@@ -9,27 +9,27 @@
     "build": "vite-ssg build"
   },
   "dependencies": {
-    "@vueuse/core": "4.11.2",
+    "@vueuse/core": "6.2.1",
     "@vueuse/head": "0.6.0",
-    "vue": "3.0.11",
-    "vue-router": "4.0.8"
+    "vue": "3.2.9",
+    "vue-router": "4.0.11"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "0.6.6",
-    "@types/node": "14.17.3",
-    "@vitejs/plugin-vue": "1.2.3",
-    "@vue/compiler-sfc": "3.0.11",
-    "@vue/server-renderer": "3.0.11",
-    "eslint": "7.28.0",
-    "pnpm": "6.7.6",
+    "@antfu/eslint-config": "0.7.0",
+    "@types/node": "16.7.13",
+    "@vitejs/plugin-vue": "1.6.1",
+    "@vue/compiler-sfc": "3.2.9",
+    "@vue/server-renderer": "3.2.9",
+    "eslint": "7.32.0",
+    "pnpm": "6.14.7",
     "rollup-plugin-sitemap": "1.0.3",
-    "typescript": "4.3.2",
-    "vite": "2.3.7",
-    "vite-plugin-components": "0.11.1",
-    "vite-plugin-pages": "0.13.1",
-    "vite-plugin-vue-layouts": "0.3.1",
-    "vite-plugin-windicss": "1.0.3",
-    "vite-ssg": "0.11.2",
-    "vuex": "4.0.1"
+    "typescript": "4.4.2",
+    "unplugin-vue-components": "0.14.13",
+    "vite": "2.5.4",
+    "vite-plugin-pages": "0.18.0",
+    "vite-plugin-vue-layouts": "0.4.1",
+    "vite-plugin-windicss": "1.4.2",
+    "vite-ssg": "0.15.1",
+    "vuex": "4.0.2"
   }
 }

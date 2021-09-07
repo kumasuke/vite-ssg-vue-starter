@@ -4,7 +4,7 @@ import Vue from '@vitejs/plugin-vue'
 import Pages from 'vite-plugin-pages'
 import Layouts from 'vite-plugin-vue-layouts'
 import WindiCSS from 'vite-plugin-windicss'
-import ViteComponents from 'vite-plugin-components'
+import Components from 'unplugin-vue-components/vite'
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const SitemapPlugin = require('rollup-plugin-sitemap')
 
@@ -17,20 +17,24 @@ export default defineConfig({
   },
   plugins: [
     Vue({
-      include: [/\.vue$/, /\.md$/],
+      include: [/\.vue$/],
     }),
 
     // https://github.com/hannoeru/vite-plugin-pages
     Pages({
-      extensions: ['vue', 'md'],
+      extensions: ['vue'],
     }),
 
     // https://github.com/JohnCampionJr/vite-plugin-vue-layouts
     Layouts(),
 
-    // https://github.com/antfu/vite-plugin-components
-    ViteComponents({
-      extensions: ['vue', 'md'],
+    // https://github.com/antfu/unplugin-vue-components
+    Components({
+      dirs: ['src/components'],
+      extensions: ['vue'],
+      // filters for transforming targets
+      include: [/\.vue$/, /\.vue\?vue/],
+      exclude: [/node_modules/, /\.git/, /dist/, /public/],
     }),
 
     // https://github.com/windicss/vite-plugin-windicss

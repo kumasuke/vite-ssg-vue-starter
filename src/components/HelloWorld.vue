@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // @link https://github.com/vuejs/rfcs/pull/227#issuecomment-732499986
-import { defineProps, computed } from 'vue'
+import { computed } from 'vue'
 import { useStore } from '~/store'
 const store = useStore()
 const count = computed(() => store.state.count)

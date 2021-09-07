@@ -10,7 +10,7 @@
 
 - 🗂 File based routing via [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages)
 
-- 📦 Components auto importing via [vite-plugin-components](https://github.com/antfu/vite-plugin-components)
+- 📦 Components auto importing via [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
 
 - 📑 Layout system via [vite-plugin-vue-layouts](https://github.com/johncampionjr/vite-plugin-vue-layouts)
 
