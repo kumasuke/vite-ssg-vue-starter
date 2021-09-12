@@ -62,7 +62,7 @@ packages:
       eslint-plugin-node: 11.1.0_eslint@7.32.0
       eslint-plugin-promise: 5.1.0_eslint@7.32.0
       eslint-plugin-unicorn: 35.0.0_eslint@7.32.0
-      eslint-plugin-yml: 0.10.0_eslint@7.32.0
+      eslint-plugin-yml: 0.10.1_eslint@7.32.0
       jsonc-eslint-parser: 1.3.1
       yaml-eslint-parser: 0.4.1
     transitivePeerDependencies:
@@ -1524,8 +1524,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-yml/0.10.0_eslint@7.32.0:
-    resolution: {integrity: sha512-N3F9Zcq9SeEphK02FdLWAg4eMbOzXTZ9K6QrPuv27mW212yOmEIrTiqzA29w2NBQGsfKMxfEQRV86JVfJmWJ8w==}
+  /eslint-plugin-yml/0.10.1_eslint@7.32.0:
+    resolution: {integrity: sha512-af0WgO3qaH+RW6jv1s6RzXKlg2NZLisN95lqGUf1KqBT6rEJyGSCpM49QYaSTvzmMaB/gcdbrnAfNoYwUn0Yig==}
     peerDependencies:
       eslint: '>=6.0.0'
     dependencies:
