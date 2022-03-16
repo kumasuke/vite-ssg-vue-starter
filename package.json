@@ -35,6 +35,7 @@
     "vite-plugin-windicss": "1.8.3",
     "vite-ssg": "0.17.11",
     "vite-ssg-sitemap": "0.1.8",
-    "vitest": "0.6.1"
+    "vitest": "0.6.1",
+    "vue-tsc": "0.33.2-patch.1"
   }
 }
