@@ -1,11 +1,9 @@
 <script setup lang="ts">
-// @link https://github.com/vuejs/rfcs/pull/227#issuecomment-732499986
-import { computed } from 'vue'
-import { useStore } from '~/store'
-const store = useStore()
-const count = computed(() => store.state.count)
-defineProps({ msg: { type: String, default: 'Hello World' } })
-const increment = () => store.commit('increment')
+import { ref } from 'vue'
+
+defineProps<{ msg: string }>()
+
+const count = ref(0)
 </script>
 
 <template>
@@ -15,24 +13,20 @@ const increment = () => store.commit('increment')
     Recommended IDE setup:
     <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
     +
-    <a
-      href="https://marketplace.visualstudio.com/items?itemName=octref.vetur"
-      target="_blank"
-    >Vetur</a>
-    or
     <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
-    (if using
-    <code>&lt;script setup&gt;</code>)
   </p>
 
   <p>See <code>README.md</code> for more information.</p>
 
   <p>
-    <a href="https://vitejs.dev/guide/features.html" target="_blank">Vite Docs</a> |
+    <a href="https://vitejs.dev/guide/features.html" target="_blank">
+      Vite Docs
+    </a>
+    |
     <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
   </p>
 
-  <button @click="increment">
+  <button type="button" @click="count++">
     count is: {{ count }}
   </button>
   <p>

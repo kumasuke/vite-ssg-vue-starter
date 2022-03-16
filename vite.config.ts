@@ -5,8 +5,7 @@ import Pages from 'vite-plugin-pages'
 import Layouts from 'vite-plugin-vue-layouts'
 import WindiCSS from 'vite-plugin-windicss'
 import Components from 'unplugin-vue-components/vite'
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const SitemapPlugin = require('rollup-plugin-sitemap')
+import generateSitemap from 'vite-ssg-sitemap'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -30,37 +29,22 @@ export default defineConfig({
 
     // https://github.com/antfu/unplugin-vue-components
     Components({
-      dirs: ['src/components'],
       extensions: ['vue'],
       // filters for transforming targets
       include: [/\.vue$/, /\.vue\?vue/],
-      exclude: [/node_modules/, /\.git/, /dist/, /public/],
+      dts: 'src/components.d.ts',
     }),
 
     // https://github.com/windicss/vite-plugin-windicss
     WindiCSS({
       safelist: [],
     }),
-
-    // https://vitejs.dev/guide/api-plugin.html#conditional-application
-    // https://github.com/JoaoSouMoreira/rollup-plugin-sitemap
-    {
-      ...SitemapPlugin({
-        baseUrl: 'https://example.com',
-        contentBase: 'dist',
-        routes: [
-          { path: '/', name: 'Home' },
-          { path: '/test', name: 'Test' },
-        ],
-      }),
-      enforce: 'post',
-      apply: 'build',
-    },
   ],
   // https://github.com/antfu/vite-ssg
   ssgOptions: {
     script: 'async',
     formatting: 'minify',
+    onFinished() { generateSitemap() },
   },
 
   optimizeDeps: {
@@ -68,9 +52,19 @@ export default defineConfig({
       'vue',
       'vue-router',
       '@vueuse/core',
+      '@vueuse/head',
     ],
     exclude: [
       'vue-demi',
     ],
+  },
+
+  // https://github.com/vitest-dev/vitest
+  test: {
+    include: ['test/**/*.test.ts'],
+    environment: 'jsdom',
+    deps: {
+      inline: ['@vue', '@vueuse', 'vue-demi'],
+    },
   },
 })
